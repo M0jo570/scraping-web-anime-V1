@@ -15,18 +15,18 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Otakudesu scraping by mojoWasTaken");
+  res.send("Otakudesu scr/aping by mojoWasTaken");
 });
 
 // router
-app.use("api/anime/home", homeRoute);
-app.use("api/anime/ongoing", ongoingRoute);
-app.use("api/anime/complete", completeRoute);
-app.use("api/anime/detail", detailRoute);
-app.use("api/anime/search", searchRoute);
-app.use("api/anime/list", animeListRoute);
-app.use("api/anime/episode", episodeRoute);
-app.use("api/anime/genres", genreRoute);
-app.use("api/anime/schedule", scheduleRoute);
+app.use("/api/anime/home", homeRoute);
+app.use("/api/anime/ongoing", ongoingRoute);
+app.use("/api/anime/complete", completeRoute);
+app.use("/api/anime/detail", detailRoute);
+app.use("/api/anime/search", searchRoute);
+app.use("/api/anime/list", animeListRoute);
+app.use("/api/anime/episode", episodeRoute);
+app.use("/api/anime/genres", genreRoute);
+app.use("/api/anime/schedule", scheduleRoute);
 
 module.exports = app;
