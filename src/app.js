@@ -12,7 +12,7 @@ const genreRoute = require("./routes/genre");
 const scheduleRoute = require("./routes/schedule");
 
 const app = express();
-const app = cors();
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("Otakudesu scraping by mojoWasTaken");
@@ -28,6 +28,5 @@ app.use("/anime/list", animeListRoute);
 app.use("/anime/episode", episodeRoute);
 app.use("/anime/genres", genreRoute);
 app.use("/anime/schedule", scheduleRoute);
-app.use(cors());
 
 module.exports = app;
