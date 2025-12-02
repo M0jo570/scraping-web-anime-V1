@@ -2,13 +2,13 @@ Project ini adalah hasil saya belajar backend jadi ini hanyalah untuk pembelajar
 
 # install Dependecies
 
-```bash
+```
 
 npm install
-```
+
 
 # clone repo
 
-```bash
+```
  git clone https://github.com/M0jo570/scraping-web-anime-V1.git
  ```
