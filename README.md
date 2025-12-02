@@ -14,8 +14,14 @@ npm install
 
 # create .env file
 
-jangan lupa membuat .env file dan edit bagian ini.
+jangan lupa membuat .env file dan buat bagian seperti ini di dalam nya.
 
 ```
 BASE_URL=
+```
+
+# server running on port
+
+```
+http://localhost:3000
 ```
