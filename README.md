@@ -13,7 +13,7 @@ npm install
 # clone repo
 
 ```
- git clone https://github.com/M0jo570/scraping-web-anime-V1.git
+ git clone https://github.com/Mojo207/scraping-web-anime-V1.git
  ```
 
 # create .env file
