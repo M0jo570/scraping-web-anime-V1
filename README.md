@@ -1,8 +1,5 @@
 # Otakudesu scraping
 
-NOTE: Project ini adalah hasil saya belajar backend jadi ini hanyalah untuk pembelajaran dan saya tidak menyarankan menggunakan nya di public,use this your own risk.
-
-
 
 # install Dependecies
 
